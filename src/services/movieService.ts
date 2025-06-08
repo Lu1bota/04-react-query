@@ -22,7 +22,6 @@ export default async function movieServices(
       },
     }
   );
-  console.log(response.data);
 
   return response.data;
 }
